@@ -29,6 +29,18 @@ h3 {
   color: var(--color-vue-title) !important;
 }
 
+h1 {
+  font-size: 24px !important;
+}
+
+h2 {
+  font-size: 20px !important;
+}
+
+h3 {
+  font-size: 18px !important;
+}
+
 .roam-sidebar-container .log-button,
 .roam-sidebar-container .page,
 .rm-block__input,
