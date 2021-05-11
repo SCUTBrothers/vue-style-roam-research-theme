@@ -122,7 +122,7 @@ code {
 }
 
 .rm-code-block {
-  max-width: 600px !important;
+  max-width: 650px !important;
 }
 
 .CodeMirror {
@@ -131,10 +131,14 @@ code {
 }
 
 .CodeMirror .CodeMirror-lines {
-  padding: 25px 10px 25px 20px !important;
+  box-sizing: border-box !important;
+  padding: 25px 0px 25px 20px !important;
 }
 
 /* code line */
+.CodeMirror .CodeMirror-line {
+  padding-left: 8px !important;
+}
 .CodeMirror-activeline {
   background-color: transparent !important;
 }
