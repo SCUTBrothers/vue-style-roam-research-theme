@@ -128,16 +128,25 @@ code {
   border-radius: 4px;
 }
 
-/* code line */
-.CodeMirror-activeline {
-  background-color: #e6e6e6 !important;
+.CodeMirror .CodeMirror-lines {
+  padding: 25px 10px 25px 20px !important;
 }
 
-/* code side number */
+/* code line */
+.CodeMirror-activeline {
+  background-color: transparent !important;
+}
+
+/* leftside code line numbers and gutters - cancle code gutters */
 .CodeMirror .CodeMirror-linenumber {
-  font-family: var(--font-code) !important;
+  /* font-family: var(--font-code) !important;
   text-align: center !important;
-  color: #237893;
+  color: #237893; */
+  display: none !important;
+}
+
+.CodeMirror .CodeMirror-gutters {
+  display: none !important;
 }
 
 /* code cursor */
