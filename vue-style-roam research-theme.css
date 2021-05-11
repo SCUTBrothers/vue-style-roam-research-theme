@@ -120,7 +120,11 @@ code {
   background-color: #f8f8f8;
   border: none !important;
 }
-/* code block */
+
+.rm-code-block {
+  max-width: 600px !important;
+}
+
 .CodeMirror {
   background-color: #f8f8f8;
   border-radius: 4px;
@@ -159,6 +163,10 @@ code {
 
 .CodeMirror .cm-string {
   color: #42b983;
+}
+
+.CodeMirror .cm-string-2 {
+  color: #525252;
 }
 
 .CodeMirror .cm-variable {
